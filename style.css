@@ -169,3 +169,32 @@ section a:hover {
     height: 500px;
     width: 400px;
 }
+
+
+/* FOOTER  */
+
+.footer {
+    display: flex;
+    height: 180px;
+    color: #f1ece0;
+    background-color: #4d2a47;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.other-contact {
+    font-size: 40px;
+}
+
+section.other-contact a {
+    margin-right: 15px;
+    color: #FFF;
+}
+
+section.other-contact a:last-child {
+    margin-right: 0px;
+}
+
+section.other-contact a:hover {
+    color: #f0a98b;
+}
