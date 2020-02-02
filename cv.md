@@ -17,3 +17,5 @@ The most recent examples of my code are:
 * [Weather Application](https://github.com/Nastja2000/nastja2000-RS2019Q3-Part2-/tree/fancy-weather)  
 * [Aliexpress Clone](https://github.com/Nastja2000/AliJSpress)   
 * [Team project at university in c #](https://github.com/Nastja2000/Cat-feeder)  
+### Professional Experience  
+I haven't worked like a programmer yet. 
