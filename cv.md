@@ -18,4 +18,10 @@ The most recent examples of my code are:
 * [Aliexpress Clone](https://github.com/Nastja2000/AliJSpress)   
 * [Team project at university in c #](https://github.com/Nastja2000/Cat-feeder)  
 ### Professional Experience  
-I haven't worked like a programmer yet. 
+I haven't worked like a programmer yet.  
+### Education  
+* _RSSChool 2019Q3_
+* Belarusian State University (Faculty of Radiophysics and Computer Technologies), Minsk, Belarus:* 09.2017 - to this day. 
+* _codeacademy_  
+* _htmlacademy_  
+* _coursera_   
