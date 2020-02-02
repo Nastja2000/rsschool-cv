@@ -96,3 +96,76 @@ header {
     line-height: 160%;
     color: #4d2a47;
 }
+
+
+/*  MAIN  */
+
+.odd-section,
+.even-section {
+    display: flex;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    border-top: 8px solid #4d2a47;
+    align-items: center;
+    justify-content: center;
+}
+
+.odd-section {
+    background-image: url(./assets/img/goroh.jpg);
+}
+
+.even-section {
+    background-color: #f1ece0;
+}
+
+.white-sheet {
+    position: relative;
+    display: flex;
+    height: 400px;
+    width: 385px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15%;
+    box-shadow: #74526e 10px 10px 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-title {
+    margin-top: 0;
+    padding-bottom: 25px;
+    color: #2c1829;
+}
+
+.section-text {
+    margin-bottom: 0;
+    width: 375px;
+    text-align: center;
+    color: #2c1829;
+}
+
+.online-school {
+    font-style: italic;
+}
+
+.highlighted-item {
+    font-weight: bold;
+}
+
+section a,
+li {
+    text-decoration: none;
+    color: #2c1829;
+}
+
+section a:hover {
+    text-decoration: none;
+    color: #f0a98b;
+}
+
+#info .white-sheet {
+    height: 500px;
+    width: 400px;
+}
