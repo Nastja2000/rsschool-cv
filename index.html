@@ -4,11 +4,151 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<title>Test Document</title>
+	<title>My CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700,700">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<div>
-		<p class="testStyle">Hello RS School world!</p>
-	</div>
+    <header id="header">
+        <nav class="top">
+            <ul class="top-item">
+                <li><a class="nav-link" href="#skills">Skills</a></li>
+                <li><a class="nav-link" href="#code">Code</a></li>
+                <li><a class="nav-link" href="#experience">Experience</a></li>
+                <li><a class="nav-link" href="#education">Education</a></li>
+                <li><a class="nav-link" href="#english">English</a></li>
+                <li><a class="nav-link" href="#projects">Projects</a></li>
+                <li><a class="nav-link" href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="profile">
+            <div class="avatar-block"> 
+                <img src="./assets/img/photo.jpg" alt="Avatar" class="avatar" />
+                <h1>Zizeko Anastasiya </h1>
+                <span>Front-End Developer</span> 
+            </div>
+            <p class="about">Hi there! I'm a Front-End developer in one of the Belarusian companies. As a developer who doesn't use HTML and CSS at all on a daily basis, I came to this course to have fun and remember these forgotten basics.</p>
+        </div>
+    </header>
+    <main>
+        <section class="even-section" id="skills">
+            <article class="white-sheet">
+                <h2>Skills</h2>
+                <ul>
+                    <li><b>Programming Languages and Technologies:</b> HTML, CSS, JavaScript/TypeScript, Node.js, CAP </li>
+                    <li><b>Frameworks:</b> SAPUI5, React </li>
+                    <li><b>Tools:</b> Figma, Photoshop, GIT, VS Code, Visual Studio, Business Application Studio, Business Technology Platform </li>
+                </ul>
+            </article>
+        </section>
+        <section class="odd-section" id="experience">
+
+            <article class="white-sheet">
+                <h2>Experience</h2>
+                <div class="card">
+                    <p class="duration">October 2020 - Present</p>
+                    <p class="position"><b>Front-End Developer</b></p>
+                    <div class="company">
+                        <img src="./assets/img/leverxLogo.jpg" alt="leverxLogo" class="company-logo" />
+                        <p><b>LeverX</b> IT company in Minsk, Belarus</p>
+                    </div>
+                    <p><b>My responsibilities:</b></p>
+                    <ul>
+                        <li>Mockups creation</li>
+                        <li>Development of the Front-end part of applications</li>
+                        <li>Tests creation for all Front-end functionality</li>
+                        <li>Applications deploy on target systems and apps release to the customer's systems</li>
+                        <li>Documentation creation</li>
+                        <li>Demo presentation</li>
+                        <li>Various administrative tasks at each stage of development</li>
+                    </ul>
+                </div>
+                </article>
+        </section>
+        <section class="even-section" id="code">
+
+            <article class="white-sheet">
+                <h2>Code</h2>
+                <pre><code>
+                    function factorial(n) {
+                    if (n &lt; 0) return null;
+                    if (n &lt;= 1) return 1;
+                    return n * factorial(n - 1);
+                    }
+                </code></pre>
+            </article>
+        </section>
+        <section class="odd-section" id="education">
+
+            <article class="white-sheet">
+                <h2>Education</h2>
+                <p class="duration"> September 2017 - July 2021</p>
+                <p class="education"> Belarusian State University: Faculty of Radiophysics and Computer Technologies</p>
+            </article>
+        </section>
+        <section class="even-section" id="english">
+            <article class="white-sheet">
+                <h2>English</h2>
+                <p class="section-text">B2 - Upper-Intermediate</p>
+            </article>
+        </section>
+        <section class="odd-section" id="projects">
+            <article class="white-sheet">
+                <h2>Projects</h2>
+                <ul class="project-list">
+                    <li class="project">
+                        <a href="https://github.com/Nastja2000/songbird" target="_blank">SongBird</a>
+                    </li>
+                    <li class="project">
+                        <a href="https://github.com/Nastja2000/english-for-kids" target="_blank">English for kids</a>
+                    </li>
+                    <li class="project">
+                        <a href="https://github.com/Nastja2000/rslang" target="_blank">RSLang</a>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <section class="even-section" id="contacts">
+            <article class="white-sheet">
+                <h2>Contacts</h2>
+                <ul class="contacts-list">
+                    <li class="contact">
+                        <img src="./assets/img/placeholder.png" alt="location icon" class="contact-logo" />
+                        <span>Minsk, Belarus</span>
+                    </li>
+                    <li class="contact">
+                        <img src="./assets/img/github.png" alt="GitHub logo" class="contact-logo" />
+                        <span>GitHub: </span>
+                        <a href="https://github.com/Nastja2000" target="_blank">Nastja2000</a>
+                    </li>
+                    <li class="contact">
+                        <img src="./assets/img/instagram.png" alt="Instagram logo" class="contact-logo" />
+                        <span>Instagram: </span>
+                        <a href="https://www.instagram.com/nastjaznf/?hl=ru" target="_blank">@nastjaznf</a>
+                    </li>
+                    <li class="contact">
+                        <img src="./assets/img/telegram.png" alt="Telegram logo" class="contact-logo" />
+                        <span>Telegram: </span>
+                        <a href="https://t.me/mc_svinushka" target="_blank">@mc_svinushka</a>
+                    </li>
+                    <li class="contact">
+                        <img src="./assets/img/mail.png" alt="Email icon" class="contact-logo" />
+                        <span>Email: </span>
+                        <a href="mailto:nastjazmf@gmail.com">nastjazmf@gmail.com</a>
+                    </li>
+                </ul>
+            </article>
+        </section>
+    </main>
+    <footer class="footer" id="contact">
+        <div class="copyright-container">
+            <p><b>&copy; 2025</b></p>
+            <p><b>Anastasiya Zizeka</b></p>
+            <a href="https://github.com/Nastja2000" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i></a>
+        </div>
+        <a href="https://rs.school/courses/javascript-ru"><img src="./assets/img/rs-school-logo.svg" alt="rsschoolLogo" class="logo" /></a>
+    </footer>
 </body>
 </html>
